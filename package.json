@@ -1,0 +1,18 @@
+{
+  "name": "coupon-engine-cli",
+  "version": "1.0.0",
+  "description": "Command-line Coupon Engine backed by PostgreSQL with local fallback for VS Code",
+  "main": "src/cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "seed": "node db/seed.js",
+    "test": "node test.js"
+  },
+  "keywords": ["coupon-engine", "cli", "postgresql", "node"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}
